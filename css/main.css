@@ -1,0 +1,74 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+img {
+    display: block;
+}
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    height: 73px;
+    border-bottom: 1px solid #e5e9f2;
+    
+}
+.header-container {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-right: 40px;
+}
+.nav {
+    margin-top: -4px;
+font-weight: bold;
+font-size: 14px;
+line-height: 1;
+color: #18191f;
+}
+.nav-linc {
+    margin-right: 32px;
+    color: #18191f;
+    text-decoration: none;
+}
+.nav-linc:hover {
+    color: #8c30f5;
+}
+.nav-linc:last-child{
+    margin-right: 0;
+}
+.appstore {
+    margin-left: auto;
+    display: flex;
+}
+.appstore-item {
+    margin-left: 12px;
+}
+.appstore-item:first-child {
+    margin-left: 0px;
+}
+/* MAIN */
+.main {
+
+}
+.main-container {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main-content {
+
+}
+.main-img{
+
+}
